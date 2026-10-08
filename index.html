@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsivo -->
 <title>Pagamento via PIX - MEIPAY</title>
 
 <!-- Google tag (gtag.js) -->
@@ -10,7 +11,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-CZRCC2DGRE');
 </script>
 
@@ -21,66 +21,73 @@
     margin: 0;
     padding: 0;
     color: #333;
+    font-size: 18px; /* letras maiores */
+    line-height: 1.6;
   }
   header {
-    background-color: #002776;
-    color: #fff;
-    padding: 20px;
+    background-color: #ffffff; /* fundo branco */
+    color: #002776;
+    padding: 30px 20px;
     text-align: center;
+    border-bottom: 2px solid #ddd;
   }
   header img {
-    height: 170px;
+    height: 120px;
     margin-bottom: 10px;
   }
   header h1 {
     margin: 0;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
+    color: #002776;
   }
   main {
-    max-width: 700px;
+    max-width: 800px;
     margin: 40px auto;
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 30px;
+    border-radius: 10px;
+    padding: 40px;
     text-align: center;
   }
   h2 {
     color: #002776;
     margin-bottom: 20px;
+    font-size: 22px;
   }
   .qrcode img {
-    width: 220px;
+    width: 260px;
     margin: 20px 0;
     border: 4px solid #eee;
-    border-radius: 8px;
+    border-radius: 10px;
   }
   .pix-key {
     background: #f9f9f9;
     border: 1px solid #ccc;
-    padding: 15px;
+    padding: 18px;
     font-family: 'Courier New', monospace;
-    font-size: 14px;
+    font-size: 16px;
     color: #2c3e50;
-    border-radius: 6px;
+    border-radius: 8px;
     word-break: break-word;
     margin-top: 20px;
   }
   .boleto-msg {
-    margin-top: 25px;
-    font-size: 15px;
+    margin-top: 30px;
+    font-size: 16px;
     color: #444;
     background: #eaf4ff;
     border: 1px solid #bcd;
-    padding: 12px;
-    border-radius: 6px;
+    padding: 14px;
+    border-radius: 8px;
   }
   footer {
     text-align: center;
-    padding: 20px;
-    font-size: 13px;
+    padding: 25px;
+    font-size: 14px;
     color: #777;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
   }
 </style>
 </head>
@@ -107,7 +114,7 @@
     </div>
   </main>
   <footer>
-    © 2026 - MEIPAY | Ambiente seguro de pagamentos.
+    © 2026 - MEIPAY | Ambiente seguro de pagamentos
   </footer>
 </body>
 </html>
